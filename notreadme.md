@@ -15,7 +15,7 @@ All students will have access to a specific CSE 15L account. Click [here](https:
 - You should now type in your password. The cursor wont move just go ahead and type the password
 - Once this is finished you should recieve a yes/no prompt to which you should type yes
 - you should be connected once these steps are completed.
-## Running some commands\
+## Running some commands
 Here are some specific useful commands to try:
 - cd ~
 - cd

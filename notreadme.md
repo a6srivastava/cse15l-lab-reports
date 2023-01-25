@@ -24,7 +24,8 @@ Here are some specific useful commands to try:
 - ```ls -a```
 - ```ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username```
 - ```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
-- ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```z
+- ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
+- ![image](commandsssh.png)
     
     
     

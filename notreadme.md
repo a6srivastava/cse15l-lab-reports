@@ -18,7 +18,7 @@ All students will have access to a specific CSE 15L account. Click [here](https:
 - you should be connected once these steps are completed.
 ## Running some commands
 Here are some specific useful commands to try:
-- ```cd ~```
+- ```cd ```
 -``` cd```
 - ```ls -lat```
 - ```ls -a```

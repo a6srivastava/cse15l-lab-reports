@@ -11,7 +11,7 @@ All students will have access to a specific CSE 15L account. Click [here](https:
 - [git_download](https://gitforwindows.org/)
 - [how to use bash](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 - Once these steps are completed you can go ahead and type in 
-- ![image](vscodessh.png)
+- ![image](vscodessh1.png)
 - $ ssh cs15lwi23zz@ieng6.ucsd.edu replacing the zz with your unique class id
 - You should now type in your password. The cursor wont move just go ahead and type the password
 - Once this is finished you should recieve a yes/no prompt to which you should type yes

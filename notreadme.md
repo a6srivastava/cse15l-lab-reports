@@ -27,7 +27,6 @@ Here are some specific useful commands to try:
 - ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 - ![image](commandsssh.png)
 - the commands above change directory, list files
-- 
     
     
    

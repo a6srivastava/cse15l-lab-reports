@@ -10,7 +10,7 @@ class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     int num = 0;
-    String[] stringarary = new String[100];
+    String[] stringarray = new String[100];
     String temp = new String("");
     public String handleRequest(URI url) {
             
@@ -19,13 +19,13 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     temp =  parameters[1];
-                    stringarary[num]=temp;
+                    stringarray[num]=temp;
                     num++;
                     
                 }
                 String j = "";
-                for(int i=0;stringarary[i]!=null;i++){
-                    j = j + "\n" + stringarary[i];
+                for(int i=0;stringarray[i]!=null;i++){
+                    j = j + "\n" + stringarray[i];
                     
                 }
                 
@@ -50,9 +50,11 @@ public class StringServer {
     }
 }
 ```
-- ![Image](chesse.png)  
-- ![Image](StudentLoginIMG.png) 
+![Image](chesse.png)  
 
+![Image](rotissori_chicken.png) 
+- The code essentially checks for the parameter "/add-message" and the query behind it, the array within the class stores all the previous queries typed. The page will also display all messages so far by printing the full contents of the array.
+- the array called stringarray is a String[] that holds the previous queries and gets updated every request.
 ## Part 2
 ```
 @Test 

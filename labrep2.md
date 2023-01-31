@@ -27,6 +27,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+### fixed code
 ```
 static void reverseInPlace(int[] arr) {
     int[] tmp = [arr.length];
@@ -36,3 +37,4 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+- the fix created a temporary array and copies over the values so that the values int the arr itself doesnt get overwritten

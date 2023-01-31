@@ -1,6 +1,55 @@
 # Cse_15L Lab Report 2 - Servers and Bugs (Week 3)
 ## Part 1 StringServer
-- image
+### StringServer.java
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.Arrays;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    int num = 0;
+    String[] stringarary = new String[100];
+    String temp = new String("");
+    public String handleRequest(URI url) {
+            
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    temp =  parameters[1];
+                    stringarary[num]=temp;
+                    num++;
+                    
+                }
+                String j = "";
+                for(int i=0;stringarary[i]!=null;i++){
+                    j = j + "\n" + stringarary[i];
+                    
+                }
+                
+                return String.format("%s", j);
+                
+            }
+            
+            return "404 Not Found!";
+        }
+    
+}
+public class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
 - image 
 - image
 

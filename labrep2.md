@@ -38,3 +38,7 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 - the fix created a temporary array and copies over the values so that the values int the arr itself doesnt get overwritten
+## Part 3 
+- I learned how to write a webserver and test it on my local machine using java files and a library called URI
+- I learned to use Junit testing assertions
+- What is code correctness, consider all cases, mostly working isnt "working"

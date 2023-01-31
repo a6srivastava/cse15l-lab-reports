@@ -5,15 +5,16 @@
 - image
 
 ## Part 2
-```@Test 
-	public void testReverseInPlace() {
-	    int[] input1 = { 1,2,3,4,5 };
-	    ArrayExamples.reverseInPlace(input1);
-	    assertArrayEquals(new int[]{ 5,4,3,2,1 }, input1);
-	    int[] input2 = { 1,2,3,2,1 };
-	    ArrayExamples.reverseInPlace(input1);
-	    assertArrayEquals(new int[]{ 1,2,3,2,1 }, input2);
-	}
+```
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = { 1,2,3,4,5 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5,4,3,2,1 }, input1);
+    int[] input2 = { 1,2,3,2,1 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 1,2,3,2,1 }, input2);
+}
 ```
 - Above shown is a faliure inducing test followed by a non faliure inducing input
 - the first input fails due to the list copying onto itself hence changing to the wrong elements

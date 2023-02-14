@@ -50,8 +50,10 @@ public class StringServer {
     }
 }
 ```
+- the class Handler has a function handleRequest that takes the input url and finds the search query associated with /add-message and then add that search param to the list of outputs string array. 
+- The contents of the page change every instance the function handle request recieves a matching query
 ![Image](chesse.png)  
-
+- Within the server files we have a function called handleRequest that searches the queries and returns the correct output( a compilation of the previous search queries for /add-message
 ![Image](rotissori_chicken.png) 
 - The code essentially checks for the parameter "/add-message" and the query behind it, the array within the class stores all the previous queries typed. The page will also display all messages so far by printing the full contents of the array.
 - the array called stringarray is a String[] that holds the previous queries and gets updated every request.

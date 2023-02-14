@@ -24,7 +24,11 @@ $ grep -n Hawaii ~/newdir/skill-demo1-data/written_2/travel_guides/berlitz1/Hand
 ```
 ![hello world](grep-n.png)
 -using grep with the -n option will show line numbers for search results
+```
+$ grep -w 
+```
 ![hello world](grep-w.png)
+- using grep with w will only show "words" so words like Hawaiian will not be output
 ![hello world](grep-r.png)
 ![hello world](grep-r3.png)
 ![hello world](grep-i.png)

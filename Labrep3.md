@@ -1,10 +1,14 @@
 #Lab Report 3 Researching commands
 ##grep
+
 ```
 grep -options searchword /filepath
 ```
+
 ###using grep without any options
+
 ```grep Hawaii ~/newdir/skill-demo1-data/written_2/travel_guides/berlitz1/HandRHawaii.txt ```
+
 ![hello world](grepvan1.png)
 -using this command should display all the instances of the "Hawaii" in the specified filepath
 ###grep with no found pattern

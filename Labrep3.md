@@ -28,8 +28,12 @@ $ grep -n Hawaii ~/newdir/skill-demo1-data/written_2/travel_guides/berlitz1/Hand
 $ grep -w 
 ```
 ![hello world](grep-w.png)
-- using grep with w will only show "words" so words like Hawaiian will not be output
+- using grep with w will only match "words" so words like Hawaiian will not be output
+```
+$ grep -r Hawaii
+```
 ![hello world](grep-r.png)
+- using the -r option allowes us to recursively search through a directory recursively in this command we are searching through written_2
 ![hello world](grep-r3.png)
 ![hello world](grep-i.png)
 ![hello world](grep-v.png)

@@ -80,6 +80,9 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+- shown above is the code that contains a bug. The bug is that tha array copies on values and copies the copied values back into the array. This will cause the array test to create a mirror image list that contains the first half elements and a mirror of them for the rest of the array
+![Image](66.png)
+- The output for {2,2,2,2} results in {2,2,2,2} but {1,2,3,4} will result in {4,3,3,4} array copies 2nd half onto first half and then first half back onto second half. The bug is that the array is changing elements twice when it is not supposed to.
 ### fixed code
 ```
 static void reverseInPlace(int[] arr) {

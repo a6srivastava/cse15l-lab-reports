@@ -8,11 +8,8 @@ grep -options searchword /filepath
 ![hello world](grep-n.png)
 ![hello world](grep-w.png)
 ![hello world](grep-r.png)
-
 ![hello world](grep-r3.png)
-
-![hello world](grep-r2.png)
-
+![hello world](grep-i.png)
 ![hello world](grep-v.png)
 
 

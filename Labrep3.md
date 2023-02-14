@@ -34,10 +34,21 @@ $ grep -r Hawaii
 ```
 ![hello world](grep-r.png)
 - using the -r option allowes us to recursively search through a directory recursively in this command we are searching through written_2
+```
+$ grep -r WordThatsNotIndiectory
+```
 ![hello world](grep-r3.png)
+- if the pattern isnt in the directory then it will return 
+```
+$ grep -i
+```
 ![hello world](grep-i.png)
+- the i option is especially usefull since it searches non case sensitively
+```
+$ grep -v
+```
 ![hello world](grep-v.png)
-
+- the v option will show the compliment of what is searched. so if hello appears hello will be the only word of the file that isnt output.
 
 
 

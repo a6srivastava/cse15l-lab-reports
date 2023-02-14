@@ -9,7 +9,7 @@ grep -options searchword /filepath
 ![hello world](grep-w.png)
 ![hello world](grep-r.png)
 
-![hello world](grep-r doesnt work.png)
+![hello world](grep-r3.png)
 
 
 

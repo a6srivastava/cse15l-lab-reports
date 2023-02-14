@@ -50,6 +50,10 @@ $ grep -v
 ![hello world](grep-v.png)
 - the v option will show the compliment of what is searched. so if hello appears hello will be the only word of the file that isnt output.
 
+##Sources used
+- https://man7.org/linux/man-pages/man1/grep.1.html
+- man pages
+- 
 
 
 

@@ -17,6 +17,9 @@ $ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUn
 $ nano ListExamples.java
 $ edited the line shown in the image below
 ```
-
 - ![Image](ss4.png)
 - ![Image](ss5.png)
+```
+$ git add ListExamples.java
+$ git commit -m "fixed errores"
+```

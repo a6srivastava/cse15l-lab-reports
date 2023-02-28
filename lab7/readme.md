@@ -14,8 +14,10 @@ $ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUn
 ```
 - ![Image](ss3.png)
 ```
-$ nano ListExamples.java
-$ edited the line shown in the image below
+$ nano ListExamples.java <enter>
+$ edited the line shown in the image below 
+$ <ctrl+O><ctrl+X>
+$ <up><up><enter>
 ```
 - ![Image](ss4.png)
 - ![Image](ss5.png)

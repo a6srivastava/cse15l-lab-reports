@@ -24,6 +24,10 @@ $ <up><up><enter>
 ```
 ## Task 8
 - ![Image](ss3.png)
+```
+- run the command and pass the tests
+```
+## Task 9
 - ![Image](ss5.png)
 ```
 $ git add ListExamples.java <enter>

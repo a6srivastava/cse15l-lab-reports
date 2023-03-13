@@ -13,7 +13,7 @@ $ ls <enter>
 $ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 $ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
 ```
-## Task 8
+## Task 7
 - ![Image](ss4.png)
 
 ```
@@ -22,6 +22,7 @@ $ edited the line shown in the image below
 $ <ctrl+O><ctrl+X><enter>
 $ <up><up><enter>
 ```
+## Task 8
 - ![Image](ss3.png)
 - ![Image](ss5.png)
 ```

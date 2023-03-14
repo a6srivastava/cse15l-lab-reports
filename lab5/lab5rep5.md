@@ -54,4 +54,11 @@ $ grep "import" ListExamples.java | less
 - searching for term in filename
 ![hello world](5ss7.png)
 
+###using less with grep
+
+```
+$ ps aux | less
+```
+- outputting all the current processes into less
+![hello world](5ss8.png)
 

@@ -18,6 +18,7 @@ $ less ~/newdir/lab7/ListExamples.java
 $ less boogie.txt
 ```
 5ss3.png
+- 
 3
 ###using less with -f
 ```
@@ -29,4 +30,11 @@ $ less -f ~/newdir
 ```
 $ less -Nf ~/newdir/lab7/ListExamples.java 
 ```
+- -N displays line numbers on the left side of the screen.
 5ss4.png
+###using less with -S
+```
+$ less -NfS ~/newdir/lab7/ListExamples.java 
+```
+- -S chops long lines instead of wrapping them.
+5ss6.png

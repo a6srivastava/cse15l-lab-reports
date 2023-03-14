@@ -27,18 +27,20 @@ $ less boogie.txt
 ```
 $ less -f ~/newdir
 ```
-- this allows for the opening of non text files such as directory and non-regular files
 ![hello world](5ss5.png)
+- this allows for the opening of non text files such as directory and non-regular files
+
 
 ###using less with -N
 ```
 $ less -Nf ~/newdir/lab7/ListExamples.java 
 ```
+![hello world](5ss4.png)
 - N displays line numbers on the left side of the screen.
 
-![hello world](5ss4.png)
-###using less with -S
 
+
+###using less with -S
 ```
 $ less -NfS ~/newdir/lab7/ListExamples.java 
 ```
@@ -47,18 +49,16 @@ $ less -NfS ~/newdir/lab7/ListExamples.java
 
 
 ###using less with grep
-
 ```
 $ grep "import" ListExamples.java | less  
 ```
-- searching for term in filename
 ![hello world](5ss7.png)
+- searching for term in filename
 
 ###using less with grep
-
 ```
 $ ps aux | less
 ```
-- outputting all the current processes into less
 ![hello world](5ss8.png)
+- outputting all the current processes into less
 

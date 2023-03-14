@@ -33,7 +33,7 @@ $ less -f ~/newdir
 ```
 $ less -Nf ~/newdir/lab7/ListExamples.java 
 ```
-- -N displays line numbers on the left side of the screen.
+- N displays line numbers on the left side of the screen.
 
 ![hello world](5ss4.png)
 ###using less with -S

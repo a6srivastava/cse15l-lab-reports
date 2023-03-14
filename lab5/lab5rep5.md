@@ -27,7 +27,7 @@ $ less boogie.txt
 $ less -f ~/newdir
 ```
 - this allows for the opening of non text files such as directory and non-regular files
-- ![hello world](5ss5.png)
+![hello world](5ss5.png)
 
 ###using less with -N
 ```
@@ -41,7 +41,7 @@ $ less -Nf ~/newdir/lab7/ListExamples.java
 ```
 $ less -NfS ~/newdir/lab7/ListExamples.java 
 ```
-- -S chops long lines instead of wrapping them.
+-S chops long lines instead of wrapping them.
 
 ![hello world](5ss6.png)
 ###using less with grep

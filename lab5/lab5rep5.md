@@ -45,3 +45,12 @@ $ less -NfS ~/newdir/lab7/ListExamples.java
 - -S chops long lines instead of wrapping them.
 5ss6.png
 ![hello world](5ss6.png)
+###using less with grep
+
+```
+$ grep "import" ListExamples.java | less  
+```
+- searching for term in filename
+![hello world](5ss7.png)
+
+
